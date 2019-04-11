@@ -1,0 +1,24 @@
+.tab .contents .item {
+    display: none;
+}
+
+.tab .contents .item.active {
+    display: block;
+}
+
+.timer div {
+    display: inline-block;
+    background-color: #2196F3;
+    height: 50px;
+    line-height: 50px;
+    min-width: 70px;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+}
+
+.timer div span {
+    transform: rotate(270deg);
+    display: inline-block;
+    font-weight: bold;
+}
